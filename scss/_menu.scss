@@ -42,7 +42,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: .97;
+  opacity: .99;
   visibility: hidden;
 
   &.show {
@@ -91,7 +91,7 @@
       height: 250px;
       background: url("../img/portfolio-lg.jpeg");
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 5px $secondary-color;
     }
   }
 

@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: .97;
+  opacity: .99;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/portfolio-lg.jpeg");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 5px #f7882f; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
   .menu.current > a {
-    color: #eece1a; }
+    color: #f7882f; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #f7882f; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #f7882f; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a; }
+        color: #f7882f; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -167,7 +167,7 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid; }
+  border: #f7882f 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -185,7 +185,7 @@ main {
 .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid; }
+  border-bottom: #f7882f 5px solid; }
 
 .projects {
   display: grid;
@@ -196,7 +196,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #f7882f;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -213,7 +213,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #f7882f;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -224,7 +224,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #f7882f;
     color: #000; }
 
 .btn-dark {
